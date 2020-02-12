@@ -272,13 +272,38 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 .magazine {
     text-align: center;
-/*    font-family: "Barlow Semi Condensed",sans-serif;*/
-    font-family: 'Source Sans Pro', sans-serif;
+    /*    font-family: "Barlow Semi Condensed",sans-serif;*/
+
 }
 
 .magazine__link p {
     font-weight: 600;
     text-align: center;
+    font-family: 'Barlow Semi Condensed',sans-serif !important;
+}
+
+.magazine__link img {
+    border-radius: 5px;
+    box-shadow: 0 6px 22px rgba(0,0,0,.4);
+    transition: 0.5s;
+}
+
+/*
+.magazine:hover {
+transform: scale(1.05);
+box-shadow: 0 6px 22px rgba(0,0,0,.4);
+}
+*/
+
+.magazine:hover p {
+    opacity: .35;
+    transform: scale(.96);
+    transition: .5s;
+}
+
+.magazine__link img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 22px rgba(0,0,0,.4);
 }
 @media (min-width:320px) {
     .main-menu.stellarnav {
