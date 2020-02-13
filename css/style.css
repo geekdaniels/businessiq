@@ -215,9 +215,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     padding: 14px 20px;
 }
 
-.lets-chat {
-    text-align: right;
-    padding: 10px 0;
+.banner {
+    height: 100vh;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    line-height: 1.16;
+    font-weight: 400;
 }
 
 .blog {
@@ -310,6 +315,16 @@ box-shadow: 0 6px 22px rgba(0,0,0,.4);
         background: transparent;
         padding: 20px 0;
         font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .banner h1 {
+        font-size: 2.2rem;
+        line-height: 1.16;
+        font-weight: 400;
     }
 }
 
