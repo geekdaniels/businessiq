@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Calibre Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Regular'), url('font/calibre/CalibreRegular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Calibre Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Regular Italic'), url('font/calibre/CalibreRegularItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Calibre Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Thin'), url('font/calibre/CalibreThin.woff') format('woff');
+}
+@font-face {
+    font-family: 'Calibre Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Thin Italic'), url('font/calibre/CalibreThinItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Calibre Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Light'), url('font/calibre/CalibreLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'Calibre Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Light Italic'), url('font/calibre/CalibreLightItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Calibre Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Medium'), url('font/calibre/CalibreMedium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Calibre Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Medium Italic'), url('font/calibre/CalibreMediumItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Calibre Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Semibold'), url('font/calibre/CalibreSemibold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Calibre Semibold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Semibold Italic'), url('font/calibre/CalibreSemiboldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Calibre Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Bold'), url('font/calibre/CalibreBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Calibre Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Bold Italic'), url('font/calibre/CalibreBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Calibre Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Black'), url('font/calibre/CalibreBlack.woff') format('woff');
+}
+@font-face {
+    font-family: 'Calibre Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Black Italic'), url('font/calibre/CalibreBlackItalic.woff') format('woff');
+}

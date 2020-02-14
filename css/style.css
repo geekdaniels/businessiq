@@ -1,3 +1,5 @@
+@import url('font.css');
+
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, abbr, address, cite, code, del, dfn, img, ins, kbd, q, samp, small, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
     text-rendering: optimizeLegibility;
 }
@@ -225,6 +227,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-weight: 400;
 }
 
+.latest a:hover {
+    color: #303030;
+    text-decoration: underline;
+}
+
+.latest img:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
 .blog {
     border: solid 1px #D8D8D8;
 }
@@ -310,7 +322,112 @@ box-shadow: 0 6px 22px rgba(0,0,0,.4);
     transform: scale(1.05);
     box-shadow: 0 6px 22px rgba(0,0,0,.4);
 }
-@media (min-width:320px) {
+
+
+
+/*Footer*/
+.about-widget .email {
+    font-size: 18px;
+    color: #333333;
+    margin: 15px 0 15px;
+    display: block;
+}
+
+.phone {
+    font-size: 22px;
+    color: #333333;
+}
+
+
+.footer-bg {
+    background-color: #ccd9e3;
+}
+
+.footer-bg .title {
+    font-size: 22px;
+    padding: 12px 0 25px;
+    color: #38a0f6;
+    color: #333333;
+    font-weight: normal;
+}
+
+.footer-list ul li a {
+    display: block;
+    line-height: 38px;
+    font-size: 17px;
+    /*	color: #76797e;*/
+    color: #333333;
+}
+
+.footer-list ul li a:hover {
+    color: #3152dc;
+    text-decoration: none;
+}
+
+
+.footer-information p {
+    padding: 0 0 30px;
+    color: #333333;
+}
+
+.footer-information ul li {
+    display: inline-block;
+}
+
+.footer-information ul li a {
+    width: 40px !important;
+    height: 40px !important;
+    border: 1px solid #dbdbdb !important;
+    border-radius: 50% !important;
+    text-align: center !important;
+    line-height: 40px !important;
+    color: #dbdbdb !important;
+    margin-right: 10px !important;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.bottom-footer {
+    border-top: 1px solid #ededed;
+    margin-top: 90px;
+    padding: 35px 0;
+}
+
+.bottom-footer p {
+    /*	float: left;*/
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.bottom-footer ul {
+    /*	float: right;*/
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.bottom-footer ul li {
+    display: inline-block;
+}
+
+.bottom-footer ul li a {
+    line-height: 28px;
+    color: #333;
+    /*	color: rgba(87,102,126,0.8);*/
+    margin: auto 15px;
+}
+
+.bottom-footer ul li a:hover {
+    color: #3152dc;
+    text-decoration: none;
+}
+
+
+
+@media (min-width:320px) and (max-width: 800px) {
     .main-menu.stellarnav {
         background: transparent;
         padding: 20px 0;
