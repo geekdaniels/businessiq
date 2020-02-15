@@ -528,6 +528,10 @@ box-shadow: 0 6px 22px rgba(0,0,0,.4);
     .subscription img {
         width: 100%;
         top: 85px;
+        position: absolute;
+        left: 0;
+        box-shadow: 0 6px 22px rgba(0,0,0,.4);
+        z-index: 1
     }
 
     .latest {
