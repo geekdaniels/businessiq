@@ -360,6 +360,7 @@ box-shadow: 0 6px 22px rgba(0,0,0,.4);
     color: #333333;
     font-weight: normal;
     font-family: 'Calibre Regular',Arial,sans-serif !important;
+    text-decoration: underline;
 }
 
 .footer-list ul li a {
@@ -489,6 +490,15 @@ box-shadow: 0 6px 22px rgba(0,0,0,.4);
     box-shadow: 0 0 0 .2rem rgba(0,123,255,.0);
 }
 
+.subscription img {
+    position: absolute;
+    width: 500px;
+    left: 0;
+    top: 70px;
+    box-shadow: 0 6px 22px rgba(0,0,0,.4);
+    z-index: 1
+}
+
 
 
 
@@ -513,6 +523,11 @@ box-shadow: 0 6px 22px rgba(0,0,0,.4);
         background: #f7e05f;
         height: auto;
         padding-top: 100px;
+    }
+
+    .subscription img {
+        width: 100%;
+        top: 85px;
     }
 
     .latest {
