@@ -172,12 +172,27 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-weight: 400;
 }
 
+.font-13 {
+    font-size: 13px;
+}
+
 .logo {
     padding: 15px 0;
 }
 
 .logo .link {
     display: inline-block;
+}
+
+nav.active_nav {
+    box-shadow: 11px 15px 29px 0 rgba(48,48,48,0.07);
+    background: #fff;
+    transition: 0.8s;
+}
+
+.nav-link {
+    font-size: 15px !important;
+    font-weight: 500;
 }
 
 .main-menu.stellarnav {
