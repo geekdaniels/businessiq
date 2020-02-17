@@ -1,5 +1,12 @@
 @import url('font.css');
 
+
+:root {
+    --primary-color : #03f;
+    --secondary-color : #787878;
+    --form-text: #979797;
+}
+
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, abbr, address, cite, code, del, dfn, img, ins, kbd, q, samp, small, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
     text-rendering: optimizeLegibility;
 }
@@ -192,9 +199,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-size: 18px;
     line-height: 18px;
     font-weight: 400;
-    /*    text-transform: uppercase;*/
     letter-spacing: 0;
-    /*    padding: 0px 14px;*/
     border-bottom: solid 2px transparent;
     padding: 16px 0px;
 }
@@ -296,8 +301,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 .magazine {
     text-align: center;
-    /*    font-family: "Barlow Semi Condensed",sans-serif;*/
-
 }
 
 .magazine__link p {
@@ -312,13 +315,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     transition: 0.5s;
 }
 
-/*
-.magazine:hover {
-transform: scale(1.05);
-box-shadow: 0 6px 22px rgba(0,0,0,.4);
-}
-*/
-
 .magazine:hover p {
     opacity: .35;
     transform: scale(.96);
@@ -330,6 +326,9 @@ box-shadow: 0 6px 22px rgba(0,0,0,.4);
     box-shadow: 0 6px 22px rgba(0,0,0,.4);
 }
 
+.btn--shadow {
+    box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.1);
+}
 
 
 /*Footer*/
@@ -497,6 +496,50 @@ box-shadow: 0 6px 22px rgba(0,0,0,.4);
     top: 70px;
     box-shadow: 0 6px 22px rgba(0,0,0,.4);
     z-index: 1
+}
+
+
+.btn--primary {
+    background-color: var(--primary-color) !important;
+    color: var(--white) !important;
+}
+
+
+#sign_in_wrapper input, #register_wrapper input {
+    background: rgba(0, 131, 74, 0.1);
+    border-radius: 5px;
+    height: 60px;
+    border: 0px solid #000f !important;
+    font-size: 13px;
+}
+
+#sign_in_wrapper select, #register_wrapper select {
+    background-color: rgba(0, 131, 74, 0.1);
+    border-radius: 5px;
+    height: 60px;
+    border: 0px solid #000f !important;
+    font-size: 13px;
+}
+
+#sign_in_wrapper label, #register_wrapper label {
+    color: #0E412B;
+    font-size: 15px;
+}
+
+#sign_in_wrapper .form-group, #register_wrapper .form-group {
+    align-items: center;
+    text-align: left;
+}
+
+#sign_in_wrapper button, #register_wrapper button {
+    height: 60px;
+    font-weight: 600;
+}
+
+#sign_in_wrapper input::placeholder, #register_wrapper input::placeholder {
+    color: var(--form-text);
+    font-weight: 300;
+    font-size: 14px;
 }
 
 
