@@ -1,0 +1,29 @@
+.css-n7r8pg {
+    top: 50vh;
+    min-height: 50vh;
+}
+.css-n7r8pg {
+    padding: 20px 25px;
+}
+.css-n7r8pg {
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(51, 51, 51);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px;
+    box-sizing: border-box;
+    flex-direction: column;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    margin: 0px auto;
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+    transition: top 750ms ease-in 0s, height 750ms ease-in 0s;
+    width: 100%;
+    z-index: 1000000120;
+    height: auto;
+    top: 33vh;
+    min-height: 67vh;
+    opacity: 1;
+}
