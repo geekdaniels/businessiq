@@ -5,6 +5,7 @@
     --primary-color : #03f;
     --secondary-color : #787878;
     --form-text: #979797;
+    --white: #fff;
 }
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, abbr, address, cite, code, del, dfn, img, ins, kbd, q, samp, small, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
@@ -517,6 +518,30 @@ nav.active_nav {
 .btn--primary {
     background-color: var(--primary-color) !important;
     color: var(--white) !important;
+}
+
+.btn--primary {
+    background-color: var(--primary-color) !important;
+    color: var(--white) !important;
+}
+
+
+.btn--primary_outline {
+    background-color: var(--white) !important;
+    border: 1px solid var(--primary-color) !important;
+    color: var(--primary-color) !important;
+}
+
+.primary--text {
+    color: var(--primary-color) !important;
+}
+
+.dim-text {
+    background: rgba(0, 0, 0, 0) linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255)) repeat scroll 0% 0%;
+    position: relative;
+    height: 110px;
+    margin-top: -126px;
+    width: 100%;
 }
 
 
