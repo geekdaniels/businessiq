@@ -168,6 +168,10 @@ video {
     letter-spacing: 0;
 }
 
+.font-weight-600 {
+    font-weight: 600 !important;
+}
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-family: "Barlow Semi Condensed",sans-serif;
     font-weight: 400;
@@ -196,49 +200,8 @@ nav.active_nav {
     font-weight: 500;
 }
 
-.main-menu.stellarnav {
-    background: transparent;
-    padding: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.main-menu.stellarnav ul {
-    text-align: left;
-}
-
-.main-menu.stellarnav ul li {
-    text-align: left;
-}
-
-.main-menu.stellarnav ul li a {
-    color: #303030;
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 400;
-    letter-spacing: 0;
-    border-bottom: solid 2px transparent;
-    padding: 16px 0px;
-}
-
-.main-menu.stellarnav ul li.active > a {
-    color: #03f;
-}
-
-.main-menu.stellarnav ul li:hover > a {
-    color: #03f;
-    border-bottom: solid 2px #03f;
-}
-
-.main-menu.stellarnav ul li:last-child a {
-    padding-right: 0;
-}
-
-.main-menu.stellarnav ul li ul {
-    background: #fff;
-}
-
-.main-menu.stellarnav ul li ul li a {
-    padding: 14px 20px;
+.align-center {
+    align-items: center;
 }
 
 .banner {
