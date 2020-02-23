@@ -511,6 +511,13 @@ nav.active_nav {
     display: none;
 }
 
+.subscribe__hero {
+    background-image: linear-gradient(to right, rgba(3, 3, 3, 0.73), rgba(0, 0, 0, 0.25)), url(../img/technology-2746212_1920.jpg);
+    background-size: auto, auto;
+    background-size: cover !important;
+    border-bottom: 1px solid #dedede;
+    max-width: 1440px;
+}
 
 .btn--primary {
     background-color: var(--primary-color) !important;
