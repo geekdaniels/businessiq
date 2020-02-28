@@ -583,6 +583,32 @@ nav.active_nav {
     font-size: 14px;
 }
 
+.element-header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-bottom: 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.element-header::after {
+    content: "";
+    background-color: #047bf8;
+    width: 25px;
+    height: 4px;
+    border-radius: 0px;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
+}
+
+.subscription_card {
+    border-radius: 6px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 4px rgba(126, 142, 177, 0.12);
+    box-shadow: 0px 2px 4px rgba(126, 142, 177, 0.12);
+}
+
 
 
 @media (min-width:320px) and (max-width: 800px) {
