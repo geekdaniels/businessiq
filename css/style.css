@@ -367,12 +367,9 @@ nav.active_nav {
 }
 
 .footer-information ul li a {
-    width: 40px !important;
-    height: 40px !important;
-    border: 1px solid #dbdbdb !important;
     border-radius: 50% !important;
     text-align: center !important;
-    line-height: 40px !important;
+    line-height: 35px !important;
     color: #dbdbdb !important;
     margin-right: 10px !important;
     font-family: 'Calibre Regular',Arial,sans-serif !important;
