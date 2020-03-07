@@ -516,6 +516,14 @@ nav.active_nav {
     max-width: 1440px;
 }
 
+
+.about__hero {
+    background-image: url(../img/about_banner.png);
+    background-size: auto, auto;
+    background-size: cover !important;
+    border-bottom: 1px solid #dedede;
+    max-width: 1440px;
+}
 .btn--primary {
     background-color: var(--primary-color) !important;
     color: var(--white) !important;
